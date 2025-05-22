@@ -10,6 +10,8 @@ plans for a demonstrator
 
 ![image](https://github.com/user-attachments/assets/6642e2ec-d7ae-436d-896e-7306f81abc69)
 
+technical/science details: https://arxiv.org/pdf/1908.00267
+
 ## Do such things exist out in the world
 
 Surprisingly I struggled to find much in the way of similar 3d printed microchip devices
@@ -19,6 +21,6 @@ https://medium.com/@thorstenknoll/open-source-ic-cells-as-3d-prints-a-rough-how-
 ## What to 3D print
 There are options I think:
 
-- a monolithic part-transparent block, fairly accurately matching a real trap but scaled up and probably with some exaggerated feature sizes for visibility
-- puzzle type assembly that can be taken apart to explore the inside, and put back together
-- integrated LEDs in a semi-hollow / cutaway, and a bank of buttons to light up certain features: trap RF, MW antenna, atomic oven, gradient coils, laser waveguide, readout detector, integrated electronics, even an ion on top maybe 
+- a monolithic **semi-transparent block**, fairly accurately matching a real trap but scaled up and probably with some exaggerated feature sizes for visibility - durable
+- **puzzle type assembly** that can be taken apart to explore the inside, and put back together - interactive
+- **integrated LEDs** in a semi-hollow / cutaway, and a bank of buttons to light up certain features: trap RF, MW antenna, atomic oven, gradient coils, laser waveguide, readout detector, integrated electronics, even an ion on top maybe 
