@@ -23,4 +23,5 @@ There are options I think:
 
 - a monolithic **semi-transparent block**, fairly accurately matching a real trap but scaled up and probably with some exaggerated feature sizes for visibility - durable
 - **puzzle type assembly** that can be taken apart to explore the inside, and put back together - interactive
-- **integrated LEDs** in a semi-hollow / cutaway, and a bank of buttons to light up certain features: trap RF, MW antenna, atomic oven, gradient coils, laser waveguide, readout detector, integrated electronics, even an ion on top maybe 
+- **integrated LEDs** in a semi-hollow / cutaway, and a bank of buttons to light up certain features: trap RF, MW antenna, atomic oven, gradient coils, laser waveguide, readout detector, integrated electronics, even an ion on top maybe
+- a fanned-open deconstructed set of layers (book-fold page-fan ...)
