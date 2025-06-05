@@ -25,3 +25,9 @@ There are options I think:
 - **puzzle type assembly** that can be taken apart to explore the inside, and put back together - interactive
 - **integrated LEDs** in a semi-hollow / cutaway, and a bank of buttons to light up certain features: trap RF, MW antenna, atomic oven, gradient coils, laser waveguide, readout detector, integrated electronics, even an ion on top maybe
 - a fanned-open deconstructed set of layers (book-fold page-fan ...)
+
+## Workflow
+
+- Sussex team to convert real trap geometry files (.gds) over to blender format. 
+- Send an early simple test over for 3D print test
+- Revise the layout to add more interesting details and the active elements
