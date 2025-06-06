@@ -31,3 +31,19 @@ There are options I think:
 - Sussex team to convert real trap geometry files (.gds) over to blender format. 
 - Send an early simple test over for 3D print test
 - Revise the layout to add more interesting details and the active elements
+
+## Layers
+
+from the top down...
+
+| Layer ID  | Component  | Real Material  | Print color  | Notes  |
+| ----- | ----- | ----- | ----- | ----- |
+| 0 | Ions ? | Ytterbium | white | Potential LED to show fluorescence |
+| 1 | Electrode | gold | yellow | Potentially different classes: DC RF |
+| 2 | Ground-plane | gold | orange | Has some gaps |
+| 3 | Gradient coil | copper | green | Potentially chaser LEDs to show flow around ion sites |
+| 4 | Photon detector | MoSi | blue | ----- |
+| 4 | Micro heater | platinum | red | Potentially LED to show heating |
+| 4 | Laser waveguide | AlOx, SiN | clear ? | illuminated by LEDs at ends, grating fans under ion sites |
+| 5 | Trench capacitors | poly-silicon | blue | maybe omit |
+| 5 | Through Si Vias | poly-silicon | grey | maybe omit |
