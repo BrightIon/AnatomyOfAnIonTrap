@@ -39,11 +39,16 @@ from the top down...
 | Layer ID  | Component  | Real Material  | Print color  | Notes  |
 | ----- | ----- | ----- | ----- | ----- |
 | 0 | Ions ? | Ytterbium | white | Potential LED to show fluorescence |
-| 1 | Electrode | gold | yellow | Potentially different classes: DC RF |
-| 2 | Ground-plane | gold | orange | Has some gaps |
-| 3 | Gradient coil | copper | green | Potentially chaser LEDs to show flow around ion sites |
-| 4 | Photon detector | MoSi | blue | ----- |
-| 4 | Micro heater | platinum | red | Potentially LED to show heating |
-| 4 | Laser waveguide | AlOx, SiN | clear ? | illuminated by LEDs at ends, grating fans under ion sites |
-| 5 | Trench capacitors | poly-silicon | blue | maybe omit |
-| 5 | Through Si Vias | poly-silicon | grey | maybe omit |
+| 1 | Electrode | gold | yellow | Potentially different classes: DC, RF in distinct colours|
+| 1a | Electrode oxide | SiO2 | clear/translucent |  |
+| 2 | Ground-plane | gold | orange | Has some small gaps for signal vias |
+| 2a | Oxide vias | gold | orange | vertically connecting through from L1 to L3a |
+| 3 | Main oxide | SiO2 | clear | many elements embedded within this layer |
+| 3a | Signal routing | gold | orange | Has some small gaps for signal vias |
+| 3b | Photon detector | MoSi | blue | ----- |
+| 3c | Micro heater | platinum | red | Potentially LED to show heating |
+| 4 | Substrate | silicon | translucent | Should be slightly opaque compared to oxide |
+| 4a | Gradient coil | copper | green | Potentially chaser LEDs to show flow around ion sites |
+| 5 | Laser waveguide | AlOx, SiN | clear ? | illuminated by LEDs at ends, grating fans under ion sites |
+| 5a | Trench capacitors | poly-silicon | blue | maybe omit |
+| 5b | Through Si Vias | poly-silicon | grey | maybe omit |
