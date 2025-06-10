@@ -52,3 +52,18 @@ from the top down...
 | 5 | Laser waveguide | AlOx, SiN | clear ? | illuminated by LEDs at ends, grating fans under ion sites |
 | 5a | Trench capacitors | poly-silicon | blue | maybe omit |
 | 5b | Through Si Vias | poly-silicon | grey | maybe omit |
+
+## Active LED bits
+
+#### L0: ions
+this would be a small number of individual [through-hole type RGB LEDs](https://uk.rs-online.com/web/p/leds/2545725) mounted at interesting locations requiring 'invisible'/discreet control wires back to appropriate PWM current drivers. Or maybe single pixel RGB things with built-in SPI contrlled drivers would be more practical (if a bit less invisible when not lit up)
+
+#### L3c: oven micro-heater
+this would be a small number of individual LEDs, just like above, or even simpler red-only would do for these.
+
+#### L4a: current flow in 'gradient coils'
+this would be a [chaser stip of some kind](https://uk.rs-online.com/web/p/led-strip-lights/1245482) inserted under or inside the copper tracks. The chaser strip is typically implemented as a shift register so an arduino or raspberry would generate the SPI signal needed.
+
+#### L5: laser waveguide
+this would be a light-pipe type of situation, potentially itself 3D-printed, or otherwise something [off-the-shelf](https://uk.rs-online.com/web/p/led-light-pipes/8796493)
+
